@@ -25,6 +25,7 @@ namespace SewaMobilApp
         {
             InitializeComponent();
             loadData();
+            textBoxCari.Text = "";
         }
 
         public void loadData()
@@ -53,6 +54,7 @@ namespace SewaMobilApp
                 dataGridGudang.Columns[7].Visible = false;
 
                 btnUbah.Visible = false;
+                BtnDelete.Visible = false;
                 labelHarga.Text = "-";
                 pictureBox.Image = null;
             }
@@ -66,11 +68,11 @@ namespace SewaMobilApp
         {
             try
             {
-                DataGridViewRow selectedRow = dataGridGudang.Rows[e.RowIndex];
-                labelHarga.Text = selectedRow.Cells[6].Value.ToString();
+                labelHarga.Text = dataGridGudang.SelectedRows[0].Cells["Harga"].Value.ToString();
                 var value = dataGridGudang.SelectedRows[0].Cells["Gambar"].Value;
-                nopol = Convert.ToString(selectedRow.Cells[0].Value);
+                nopol = Convert.ToString(dataGridGudang.SelectedRows[0].Cells[0].Value);
                 btnUbah.Visible = true;
+                BtnDelete.Visible = true;
                 if ( value != DBNull.Value )
                 {
                     byte[] foto = (byte[]) value;
@@ -93,7 +95,7 @@ namespace SewaMobilApp
         {
             try
             {
-                DialogResult dialogResult = MessageBox.Show("Konfirmasi", "Apakah anda yakin?", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                DialogResult dialogResult = MessageBox.Show("Apakah anda yakin?", "Konfirmasi", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
 
                 if ( dialogResult == DialogResult.Yes )
                 {
@@ -108,6 +110,7 @@ namespace SewaMobilApp
                     connect.Close();
 
                     loadData();
+                    textBoxCari.Text = "";
                 } else if (dialogResult == DialogResult.Cancel)
                 {}
             } catch (Exception ex)
@@ -175,6 +178,7 @@ namespace SewaMobilApp
         {
             loadData();
             labelHarga.Text = "-";
+            textBoxCari.Text = "";
         }
     }
 }

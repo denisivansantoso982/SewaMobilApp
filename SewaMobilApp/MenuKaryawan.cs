@@ -15,14 +15,16 @@ namespace SewaMobilApp
     {
         SqlConnection connection;
         DataTable dt;
-        SqlDataReader sdr;
+        //SqlDataReader sdr;
         SqlDataAdapter sda;
         SqlCommand command;
+        int id;
 
         public MenuKaryawan()
         {
             InitializeComponent();
             loadData();
+            textBoxCari.Text = "";
         }
 
         public void loadData()
@@ -54,6 +56,9 @@ namespace SewaMobilApp
                 dataGridKaryawan.Columns[3].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
                 dataGridKaryawan.Columns[4].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
                 dataGridKaryawan.Columns[7].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+
+                btnUbah.Visible = false;
+                btnHapus.Visible = false;
             }
             catch (Exception ex)
             {
@@ -64,6 +69,7 @@ namespace SewaMobilApp
         private void btnRefresh_Click(object sender, EventArgs e)
         {
             loadData();
+            textBoxCari.Text = "";
         }
 
         private void textBoxCari_TextChanged(object sender, EventArgs e)
@@ -77,6 +83,57 @@ namespace SewaMobilApp
             } catch (Exception ex)
             {
                 MessageBox.Show(ex.Message, "Error");
+            }
+        }
+
+        private void btnTambahKaryawan_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnUbah_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnHapus_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                DialogResult dialogResult = MessageBox.Show("Apakah anda yakin ingin menghapus data ini?", "Peringatan", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+
+                if (dialogResult == DialogResult.Yes)
+                {
+                    Koneksi kon = new Koneksi();
+                    connection = new SqlConnection(kon.koneksi);
+                    command = new SqlCommand("DELETE FROM Karyawan WHERE Id_Karyawan = @id_karyawan", connection);
+                    command.CommandType = CommandType.Text;
+                    command.Parameters.AddWithValue("@id_karyawan", id);
+
+                    connection.Open();
+                    command.ExecuteNonQuery();
+                    connection.Close();
+
+                    loadData();
+                } else
+                { }
+            } catch ( Exception ex )
+            {
+                MessageBox.Show(ex.Message);
+                Console.WriteLine(ex.Message);
+            }
+        }
+
+        private void dataGridKaryawan_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            try
+            {
+                id = Convert.ToInt32(dataGridKaryawan.SelectedRows[0].Cells[0].Value);
+                btnUbah.Visible = true;
+                btnHapus.Visible = true;
+            } catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
             }
         }
     }

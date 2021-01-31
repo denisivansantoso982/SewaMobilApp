@@ -129,10 +129,13 @@
     <value>NoControl</value>
   </data>
   <data name="labelTime.Location" type="System.Drawing.Point, System.Drawing">
-    <value>938, 9</value>
+    <value>1251, 11</value>
+  </data>
+  <data name="labelTime.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="labelTime.Size" type="System.Drawing.Size, System.Drawing">
-    <value>370, 23</value>
+    <value>493, 28</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="labelTime.TabIndex" type="System.Int32, mscorlib">
@@ -159,9 +162,6 @@
   <data name="label1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
   </data>
-  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
   <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Trebuchet MS, 20pt, style=Bold</value>
   </data>
@@ -169,16 +169,22 @@
     <value>NoControl</value>
   </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>587, 27</value>
+    <value>675, 33</value>
+  </data>
+  <data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>147, 35</value>
+    <value>411, 43</value>
   </data>
   <data name="label1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>Dashboard</value>
+  </data>
+  <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
   </data>
   <data name="&gt;&gt;label1.Name" xml:space="preserve">
     <value>label1</value>
@@ -198,8 +204,11 @@
   <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
+  <data name="panel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
   <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1320, 100</value>
+    <value>1760, 123</value>
   </data>
   <data name="panel1.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -229,13 +238,13 @@
     <value>NoControl</value>
   </data>
   <data name="btnPesan.Location" type="System.Drawing.Point, System.Drawing">
-    <value>167, 645</value>
+    <value>223, 794</value>
   </data>
   <data name="btnPesan.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
+    <value>9, 9, 9, 9</value>
   </data>
   <data name="btnPesan.Size" type="System.Drawing.Size, System.Drawing">
-    <value>137, 39</value>
+    <value>183, 48</value>
   </data>
   <data name="btnPesan.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -268,13 +277,13 @@
     <value>NoControl</value>
   </data>
   <data name="btnPengembalian.Location" type="System.Drawing.Point, System.Drawing">
-    <value>318, 645</value>
+    <value>424, 794</value>
   </data>
   <data name="btnPengembalian.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
+    <value>9, 9, 9, 9</value>
   </data>
   <data name="btnPengembalian.Size" type="System.Drawing.Size, System.Drawing">
-    <value>137, 39</value>
+    <value>183, 48</value>
   </data>
   <data name="btnPengembalian.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -307,13 +316,13 @@
     <value>NoControl</value>
   </data>
   <data name="btnGudang.Location" type="System.Drawing.Point, System.Drawing">
-    <value>469, 645</value>
+    <value>625, 794</value>
   </data>
   <data name="btnGudang.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
+    <value>9, 9, 9, 9</value>
   </data>
   <data name="btnGudang.Size" type="System.Drawing.Size, System.Drawing">
-    <value>137, 39</value>
+    <value>183, 48</value>
   </data>
   <data name="btnGudang.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -346,13 +355,13 @@
     <value>NoControl</value>
   </data>
   <data name="btnKeluar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1167, 645</value>
+    <value>1556, 794</value>
   </data>
   <data name="btnKeluar.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
+    <value>9, 9, 9, 9</value>
   </data>
   <data name="btnKeluar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>137, 39</value>
+    <value>183, 48</value>
   </data>
   <data name="btnKeluar.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -385,13 +394,13 @@
     <value>NoControl</value>
   </data>
   <data name="btnRiwayat.Location" type="System.Drawing.Point, System.Drawing">
-    <value>620, 645</value>
+    <value>827, 794</value>
   </data>
   <data name="btnRiwayat.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
+    <value>9, 9, 9, 9</value>
   </data>
   <data name="btnRiwayat.Size" type="System.Drawing.Size, System.Drawing">
-    <value>137, 39</value>
+    <value>183, 48</value>
   </data>
   <data name="btnRiwayat.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -424,13 +433,13 @@
     <value>NoControl</value>
   </data>
   <data name="btnKaryawan.Location" type="System.Drawing.Point, System.Drawing">
-    <value>771, 645</value>
+    <value>1028, 794</value>
   </data>
   <data name="btnKaryawan.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
+    <value>9, 9, 9, 9</value>
   </data>
   <data name="btnKaryawan.Size" type="System.Drawing.Size, System.Drawing">
-    <value>137, 39</value>
+    <value>183, 48</value>
   </data>
   <data name="btnKaryawan.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -463,13 +472,13 @@
     <value>NoControl</value>
   </data>
   <data name="btnMenu.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 645</value>
+    <value>21, 794</value>
   </data>
   <data name="btnMenu.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
+    <value>9, 9, 9, 9</value>
   </data>
   <data name="btnMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>137, 39</value>
+    <value>183, 48</value>
   </data>
   <data name="btnMenu.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -496,10 +505,13 @@
     <value>Top, Bottom, Left, Right</value>
   </data>
   <data name="menuGudang.Location" type="System.Drawing.Point, System.Drawing">
-    <value>24, 118</value>
+    <value>32, 145</value>
+  </data>
+  <data name="menuGudang.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
   </data>
   <data name="menuGudang.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1265, 500</value>
+    <value>1687, 615</value>
   </data>
   <data name="menuGudang.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -520,13 +532,13 @@
     <value>Top, Bottom, Left, Right</value>
   </data>
   <data name="menuUser.Location" type="System.Drawing.Point, System.Drawing">
-    <value>24, 118</value>
+    <value>32, 145</value>
   </data>
   <data name="menuUser.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>15, 15, 15, 15</value>
+    <value>20, 18, 20, 18</value>
   </data>
   <data name="menuUser.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1265, 500</value>
+    <value>1687, 615</value>
   </data>
   <data name="menuUser.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -547,10 +559,13 @@
     <value>Top, Bottom, Left, Right</value>
   </data>
   <data name="menuKaryawan.Location" type="System.Drawing.Point, System.Drawing">
-    <value>24, 118</value>
+    <value>32, 145</value>
+  </data>
+  <data name="menuKaryawan.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
   </data>
   <data name="menuKaryawan.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1265, 500</value>
+    <value>1687, 615</value>
   </data>
   <data name="menuKaryawan.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -574,13 +589,16 @@
     <value>32</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+    <value>8, 16</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1320, 700</value>
+    <value>1760, 862</value>
   </data>
   <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
