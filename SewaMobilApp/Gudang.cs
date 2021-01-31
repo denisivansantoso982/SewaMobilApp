@@ -53,6 +53,8 @@ namespace SewaMobilApp
                 dataGridGudang.Columns[7].Visible = false;
 
                 btnUbah.Visible = false;
+                labelHarga.Text = "-";
+                pictureBox.Image = null;
             }
             catch ( Exception ex )
             {
@@ -77,7 +79,6 @@ namespace SewaMobilApp
                 }
             } catch (Exception ex)
             {
-                MessageBox.Show("Error", ex.Message);
                 Console.WriteLine(ex.Message);
             }
         }

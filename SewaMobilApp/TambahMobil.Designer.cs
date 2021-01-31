@@ -53,53 +53,59 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(53, 56);
+            this.label1.Location = new System.Drawing.Point(71, 69);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(70, 20);
+            this.label1.Size = new System.Drawing.Size(90, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "No. Polisi";
             // 
             // TxtNoPol
             // 
             this.TxtNoPol.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtNoPol.Location = new System.Drawing.Point(193, 53);
+            this.TxtNoPol.Location = new System.Drawing.Point(257, 65);
+            this.TxtNoPol.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TxtNoPol.Name = "TxtNoPol";
-            this.TxtNoPol.Size = new System.Drawing.Size(352, 27);
+            this.TxtNoPol.Size = new System.Drawing.Size(468, 32);
             this.TxtNoPol.TabIndex = 1;
             // 
             // TxtMerk
             // 
             this.TxtMerk.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtMerk.Location = new System.Drawing.Point(193, 122);
+            this.TxtMerk.Location = new System.Drawing.Point(257, 150);
+            this.TxtMerk.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TxtMerk.Name = "TxtMerk";
-            this.TxtMerk.Size = new System.Drawing.Size(352, 27);
+            this.TxtMerk.Size = new System.Drawing.Size(468, 32);
             this.TxtMerk.TabIndex = 3;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(53, 125);
+            this.label2.Location = new System.Drawing.Point(71, 154);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(42, 20);
+            this.label2.Size = new System.Drawing.Size(55, 25);
             this.label2.TabIndex = 2;
             this.label2.Text = "Merk";
             // 
             // TxtModel
             // 
             this.TxtModel.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtModel.Location = new System.Drawing.Point(193, 191);
+            this.TxtModel.Location = new System.Drawing.Point(257, 235);
+            this.TxtModel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TxtModel.Name = "TxtModel";
-            this.TxtModel.Size = new System.Drawing.Size(352, 27);
+            this.TxtModel.Size = new System.Drawing.Size(468, 32);
             this.TxtModel.TabIndex = 5;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(53, 194);
+            this.label3.Location = new System.Drawing.Point(71, 239);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(52, 20);
+            this.label3.Size = new System.Drawing.Size(66, 25);
             this.label3.TabIndex = 4;
             this.label3.Text = "Model";
             // 
@@ -107,9 +113,10 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(53, 262);
+            this.label4.Location = new System.Drawing.Point(71, 322);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(81, 20);
+            this.label4.Size = new System.Drawing.Size(106, 25);
             this.label4.TabIndex = 6;
             this.label4.Text = "Tahun Buat";
             // 
@@ -117,18 +124,20 @@
             // 
             this.NumericTahun.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.NumericTahun.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NumericTahun.Location = new System.Drawing.Point(193, 260);
+            this.NumericTahun.Location = new System.Drawing.Point(257, 320);
+            this.NumericTahun.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.NumericTahun.Name = "NumericTahun";
-            this.NumericTahun.Size = new System.Drawing.Size(352, 27);
+            this.NumericTahun.Size = new System.Drawing.Size(469, 32);
             this.NumericTahun.TabIndex = 8;
             // 
             // NumericHarga
             // 
             this.NumericHarga.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.NumericHarga.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NumericHarga.Location = new System.Drawing.Point(193, 399);
+            this.NumericHarga.Location = new System.Drawing.Point(257, 491);
+            this.NumericHarga.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.NumericHarga.Name = "NumericHarga";
-            this.NumericHarga.Size = new System.Drawing.Size(352, 27);
+            this.NumericHarga.Size = new System.Drawing.Size(469, 32);
             this.NumericHarga.TabIndex = 12;
             this.NumericHarga.ThousandsSeparator = true;
             // 
@@ -136,9 +145,10 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(53, 401);
+            this.label5.Location = new System.Drawing.Point(71, 494);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(50, 20);
+            this.label5.Size = new System.Drawing.Size(63, 25);
             this.label5.TabIndex = 9;
             this.label5.Text = "Harga";
             // 
@@ -146,9 +156,10 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(53, 332);
+            this.label6.Location = new System.Drawing.Point(71, 409);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(44, 20);
+            this.label6.Size = new System.Drawing.Size(56, 25);
             this.label6.TabIndex = 11;
             this.label6.Text = "Kelas";
             // 
@@ -156,19 +167,22 @@
             // 
             this.CBKelas.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CBKelas.FormattingEnabled = true;
-            this.CBKelas.Location = new System.Drawing.Point(193, 329);
+            this.CBKelas.Location = new System.Drawing.Point(257, 405);
+            this.CBKelas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.CBKelas.Name = "CBKelas";
-            this.CBKelas.Size = new System.Drawing.Size(352, 28);
+            this.CBKelas.Size = new System.Drawing.Size(468, 33);
             this.CBKelas.TabIndex = 10;
             // 
             // pictureBox
             // 
             this.pictureBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox.Location = new System.Drawing.Point(623, 53);
+            this.pictureBox.BackColor = System.Drawing.Color.White;
+            this.pictureBox.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox.Location = new System.Drawing.Point(831, 65);
+            this.pictureBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox.Name = "pictureBox";
-            this.pictureBox.Size = new System.Drawing.Size(209, 234);
-            this.pictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox.Size = new System.Drawing.Size(278, 288);
+            this.pictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox.TabIndex = 13;
             this.pictureBox.TabStop = false;
             // 
@@ -184,10 +198,10 @@
             this.btnCari.Font = new System.Drawing.Font("Nirmala UI", 11F);
             this.btnCari.ForeColor = System.Drawing.Color.Snow;
             this.btnCari.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btnCari.Location = new System.Drawing.Point(623, 310);
-            this.btnCari.Margin = new System.Windows.Forms.Padding(7);
+            this.btnCari.Location = new System.Drawing.Point(831, 382);
+            this.btnCari.Margin = new System.Windows.Forms.Padding(9, 9, 9, 9);
             this.btnCari.Name = "btnCari";
-            this.btnCari.Size = new System.Drawing.Size(209, 27);
+            this.btnCari.Size = new System.Drawing.Size(279, 33);
             this.btnCari.TabIndex = 14;
             this.btnCari.Text = "Cari";
             this.btnCari.UseVisualStyleBackColor = false;
@@ -205,10 +219,10 @@
             this.btnSimpan.Font = new System.Drawing.Font("Nirmala UI", 11F);
             this.btnSimpan.ForeColor = System.Drawing.Color.Snow;
             this.btnSimpan.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btnSimpan.Location = new System.Drawing.Point(623, 354);
-            this.btnSimpan.Margin = new System.Windows.Forms.Padding(7);
+            this.btnSimpan.Location = new System.Drawing.Point(831, 436);
+            this.btnSimpan.Margin = new System.Windows.Forms.Padding(9, 9, 9, 9);
             this.btnSimpan.Name = "btnSimpan";
-            this.btnSimpan.Size = new System.Drawing.Size(209, 27);
+            this.btnSimpan.Size = new System.Drawing.Size(279, 33);
             this.btnSimpan.TabIndex = 15;
             this.btnSimpan.Text = "Simpan";
             this.btnSimpan.UseVisualStyleBackColor = false;
@@ -227,10 +241,10 @@
             this.btnBatal.Font = new System.Drawing.Font("Nirmala UI", 11F);
             this.btnBatal.ForeColor = System.Drawing.Color.Snow;
             this.btnBatal.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btnBatal.Location = new System.Drawing.Point(623, 398);
-            this.btnBatal.Margin = new System.Windows.Forms.Padding(7);
+            this.btnBatal.Location = new System.Drawing.Point(831, 490);
+            this.btnBatal.Margin = new System.Windows.Forms.Padding(9, 9, 9, 9);
             this.btnBatal.Name = "btnBatal";
-            this.btnBatal.Size = new System.Drawing.Size(209, 27);
+            this.btnBatal.Size = new System.Drawing.Size(279, 33);
             this.btnBatal.TabIndex = 16;
             this.btnBatal.Text = "Batal";
             this.btnBatal.UseVisualStyleBackColor = false;
@@ -238,9 +252,9 @@
             // 
             // TambahMobil
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(900, 500);
+            this.ClientSize = new System.Drawing.Size(1200, 615);
             this.Controls.Add(this.btnBatal);
             this.Controls.Add(this.btnSimpan);
             this.Controls.Add(this.btnCari);
@@ -258,6 +272,7 @@
             this.Controls.Add(this.TxtNoPol);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "TambahMobil";

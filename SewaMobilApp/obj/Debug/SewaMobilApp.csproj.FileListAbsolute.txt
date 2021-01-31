@@ -18,3 +18,23 @@ E:\MyProject\Desktop_Tutorial\LKS\SewaMobilApp\SewaMobilApp\obj\Debug\SewaMobilA
 E:\MyProject\Desktop_Tutorial\LKS\SewaMobilApp\SewaMobilApp\obj\Debug\SewaMobilApp.Splash.resources
 E:\MyProject\Desktop_Tutorial\LKS\SewaMobilApp\SewaMobilApp\obj\Debug\SewaMobilApp.UbahMobil.resources
 E:\MyProject\Desktop_Tutorial\LKS\SewaMobilApp\SewaMobilApp\obj\Debug\SewaMobilApp.MenuKaryawan.resources
+D:\DENIS IVAN SANTOSO\Project Example\Desktop_Tutorial\LKS\SewaMobilApp\SewaMobilApp\bin\Debug\SewaMobilApp.exe.config
+D:\DENIS IVAN SANTOSO\Project Example\Desktop_Tutorial\LKS\SewaMobilApp\SewaMobilApp\bin\Debug\SewaMobilApp.exe
+D:\DENIS IVAN SANTOSO\Project Example\Desktop_Tutorial\LKS\SewaMobilApp\SewaMobilApp\bin\Debug\SewaMobilApp.pdb
+D:\DENIS IVAN SANTOSO\Project Example\Desktop_Tutorial\LKS\SewaMobilApp\SewaMobilApp\bin\Debug\aa\SewaMobilApp.resources.dll
+D:\DENIS IVAN SANTOSO\Project Example\Desktop_Tutorial\LKS\SewaMobilApp\SewaMobilApp\obj\Debug\SewaMobilApp.csprojAssemblyReference.cache
+D:\DENIS IVAN SANTOSO\Project Example\Desktop_Tutorial\LKS\SewaMobilApp\SewaMobilApp\obj\Debug\SewaMobilApp.Dashboard.resources
+D:\DENIS IVAN SANTOSO\Project Example\Desktop_Tutorial\LKS\SewaMobilApp\SewaMobilApp\obj\Debug\SewaMobilApp.Gudang.resources
+D:\DENIS IVAN SANTOSO\Project Example\Desktop_Tutorial\LKS\SewaMobilApp\SewaMobilApp\obj\Debug\SewaMobilApp.MenuKaryawan.resources
+D:\DENIS IVAN SANTOSO\Project Example\Desktop_Tutorial\LKS\SewaMobilApp\SewaMobilApp\obj\Debug\SewaMobilApp.Login.resources
+D:\DENIS IVAN SANTOSO\Project Example\Desktop_Tutorial\LKS\SewaMobilApp\SewaMobilApp\obj\Debug\SewaMobilApp.Menu.resources
+D:\DENIS IVAN SANTOSO\Project Example\Desktop_Tutorial\LKS\SewaMobilApp\SewaMobilApp\obj\Debug\SewaMobilApp.Properties.Resources.resources
+D:\DENIS IVAN SANTOSO\Project Example\Desktop_Tutorial\LKS\SewaMobilApp\SewaMobilApp\obj\Debug\SewaMobilApp.Splash.resources
+D:\DENIS IVAN SANTOSO\Project Example\Desktop_Tutorial\LKS\SewaMobilApp\SewaMobilApp\obj\Debug\SewaMobilApp.TambahMobil.resources
+D:\DENIS IVAN SANTOSO\Project Example\Desktop_Tutorial\LKS\SewaMobilApp\SewaMobilApp\obj\Debug\SewaMobilApp.UbahMobil.resources
+D:\DENIS IVAN SANTOSO\Project Example\Desktop_Tutorial\LKS\SewaMobilApp\SewaMobilApp\obj\Debug\SewaMobilApp.Dashboard.aa.resources
+D:\DENIS IVAN SANTOSO\Project Example\Desktop_Tutorial\LKS\SewaMobilApp\SewaMobilApp\obj\Debug\SewaMobilApp.csproj.GenerateResource.cache
+D:\DENIS IVAN SANTOSO\Project Example\Desktop_Tutorial\LKS\SewaMobilApp\SewaMobilApp\obj\Debug\SewaMobilApp.csproj.CoreCompileInputs.cache
+D:\DENIS IVAN SANTOSO\Project Example\Desktop_Tutorial\LKS\SewaMobilApp\SewaMobilApp\obj\Debug\aa\SewaMobilApp.resources.dll
+D:\DENIS IVAN SANTOSO\Project Example\Desktop_Tutorial\LKS\SewaMobilApp\SewaMobilApp\obj\Debug\SewaMobilApp.exe
+D:\DENIS IVAN SANTOSO\Project Example\Desktop_Tutorial\LKS\SewaMobilApp\SewaMobilApp\obj\Debug\SewaMobilApp.pdb

@@ -9,6 +9,6 @@ namespace SewaMobilApp
 {
     public class Koneksi
     {
-        public string koneksi = "Data Source=DENISIVANSANTOS;Initial Catalog=SewaMobil;Integrated Security=True";
+        public string koneksi = "Data Source=LAPTOP-QK9HLMP4\\HOYIRULSQL;Initial Catalog=SewaMobil;Integrated Security=True";
     }
 }
