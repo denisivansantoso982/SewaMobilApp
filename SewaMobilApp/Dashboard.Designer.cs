@@ -173,6 +173,7 @@
             // menuGudang
             // 
             resources.ApplyResources(this.menuGudang, "menuGudang");
+            this.menuGudang.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.menuGudang.Name = "menuGudang";
             // 
             // menuUser
