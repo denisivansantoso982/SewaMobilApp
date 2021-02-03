@@ -44,6 +44,7 @@ namespace SewaMobilApp
             this.textBoxNama = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.textBoxTelepon = new System.Windows.Forms.TextBox();
+            this.labelTitle = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnBatal
@@ -58,7 +59,7 @@ namespace SewaMobilApp
             this.btnBatal.Font = new System.Drawing.Font("Nirmala UI", 11F);
             this.btnBatal.ForeColor = System.Drawing.Color.Snow;
             this.btnBatal.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btnBatal.Location = new System.Drawing.Point(413, 640);
+            this.btnBatal.Location = new System.Drawing.Point(413, 732);
             this.btnBatal.Margin = new System.Windows.Forms.Padding(9);
             this.btnBatal.Name = "btnBatal";
             this.btnBatal.Size = new System.Drawing.Size(197, 33);
@@ -79,7 +80,7 @@ namespace SewaMobilApp
             this.btnUbah.Font = new System.Drawing.Font("Nirmala UI", 11F);
             this.btnUbah.ForeColor = System.Drawing.Color.Snow;
             this.btnUbah.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btnUbah.Location = new System.Drawing.Point(198, 640);
+            this.btnUbah.Location = new System.Drawing.Point(198, 732);
             this.btnUbah.Margin = new System.Windows.Forms.Padding(9);
             this.btnUbah.Name = "btnUbah";
             this.btnUbah.Size = new System.Drawing.Size(197, 33);
@@ -92,7 +93,7 @@ namespace SewaMobilApp
             // 
             this.checkBoxPassword.AutoSize = true;
             this.checkBoxPassword.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBoxPassword.Location = new System.Drawing.Point(198, 554);
+            this.checkBoxPassword.Location = new System.Drawing.Point(198, 646);
             this.checkBoxPassword.Name = "checkBoxPassword";
             this.checkBoxPassword.Size = new System.Drawing.Size(159, 29);
             this.checkBoxPassword.TabIndex = 29;
@@ -103,7 +104,7 @@ namespace SewaMobilApp
             // textBoxPassword
             // 
             this.textBoxPassword.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxPassword.Location = new System.Drawing.Point(198, 516);
+            this.textBoxPassword.Location = new System.Drawing.Point(198, 608);
             this.textBoxPassword.Name = "textBoxPassword";
             this.textBoxPassword.Size = new System.Drawing.Size(550, 32);
             this.textBoxPassword.TabIndex = 28;
@@ -113,7 +114,7 @@ namespace SewaMobilApp
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(52, 518);
+            this.label6.Location = new System.Drawing.Point(52, 610);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(91, 25);
             this.label6.TabIndex = 27;
@@ -122,7 +123,7 @@ namespace SewaMobilApp
             // textBoxUsername
             // 
             this.textBoxUsername.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxUsername.Location = new System.Drawing.Point(198, 424);
+            this.textBoxUsername.Location = new System.Drawing.Point(198, 516);
             this.textBoxUsername.Name = "textBoxUsername";
             this.textBoxUsername.Size = new System.Drawing.Size(550, 32);
             this.textBoxUsername.TabIndex = 26;
@@ -132,7 +133,7 @@ namespace SewaMobilApp
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(52, 426);
+            this.label5.Location = new System.Drawing.Point(52, 518);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(97, 25);
             this.label5.TabIndex = 25;
@@ -142,7 +143,7 @@ namespace SewaMobilApp
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(52, 334);
+            this.label4.Location = new System.Drawing.Point(52, 426);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(126, 25);
             this.label4.TabIndex = 24;
@@ -152,7 +153,7 @@ namespace SewaMobilApp
             // 
             this.comboBoxJK.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBoxJK.FormattingEnabled = true;
-            this.comboBoxJK.Location = new System.Drawing.Point(198, 331);
+            this.comboBoxJK.Location = new System.Drawing.Point(198, 423);
             this.comboBoxJK.Name = "comboBoxJK";
             this.comboBoxJK.Size = new System.Drawing.Size(550, 33);
             this.comboBoxJK.TabIndex = 23;
@@ -160,7 +161,7 @@ namespace SewaMobilApp
             // dateTimePicker
             // 
             this.dateTimePicker.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker.Location = new System.Drawing.Point(198, 239);
+            this.dateTimePicker.Location = new System.Drawing.Point(198, 331);
             this.dateTimePicker.Name = "dateTimePicker";
             this.dateTimePicker.Size = new System.Drawing.Size(550, 32);
             this.dateTimePicker.TabIndex = 22;
@@ -169,7 +170,7 @@ namespace SewaMobilApp
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(52, 242);
+            this.label3.Location = new System.Drawing.Point(52, 334);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(125, 25);
             this.label3.TabIndex = 21;
@@ -179,7 +180,7 @@ namespace SewaMobilApp
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(52, 150);
+            this.label2.Location = new System.Drawing.Point(52, 242);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(112, 25);
             this.label2.TabIndex = 19;
@@ -188,7 +189,7 @@ namespace SewaMobilApp
             // textBoxNama
             // 
             this.textBoxNama.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNama.Location = new System.Drawing.Point(198, 55);
+            this.textBoxNama.Location = new System.Drawing.Point(198, 147);
             this.textBoxNama.Name = "textBoxNama";
             this.textBoxNama.Size = new System.Drawing.Size(550, 32);
             this.textBoxNama.TabIndex = 18;
@@ -197,7 +198,7 @@ namespace SewaMobilApp
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(52, 58);
+            this.label1.Location = new System.Drawing.Point(52, 150);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(62, 25);
             this.label1.TabIndex = 17;
@@ -206,17 +207,31 @@ namespace SewaMobilApp
             // textBoxTelepon
             // 
             this.textBoxTelepon.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxTelepon.Location = new System.Drawing.Point(198, 147);
+            this.textBoxTelepon.Location = new System.Drawing.Point(198, 239);
             this.textBoxTelepon.Name = "textBoxTelepon";
             this.textBoxTelepon.Size = new System.Drawing.Size(550, 32);
             this.textBoxTelepon.TabIndex = 32;
             this.textBoxTelepon.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxTelepon_KeyPress);
             // 
+            // labelTitle
+            // 
+            this.labelTitle.AutoSize = true;
+            this.labelTitle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.labelTitle.Font = new System.Drawing.Font("Trebuchet MS", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelTitle.ForeColor = System.Drawing.SystemColors.WindowFrame;
+            this.labelTitle.Location = new System.Drawing.Point(49, 41);
+            this.labelTitle.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelTitle.Name = "labelTitle";
+            this.labelTitle.Size = new System.Drawing.Size(346, 43);
+            this.labelTitle.TabIndex = 35;
+            this.labelTitle.Text = "Ubah Data Karyawan";
+            // 
             // UbahKaryawan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 729);
+            this.ClientSize = new System.Drawing.Size(800, 825);
+            this.Controls.Add(this.labelTitle);
             this.Controls.Add(this.textBoxTelepon);
             this.Controls.Add(this.btnBatal);
             this.Controls.Add(this.btnUbah);
@@ -259,5 +274,6 @@ namespace SewaMobilApp
         private System.Windows.Forms.TextBox textBoxNama;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBoxTelepon;
+        private System.Windows.Forms.Label labelTitle;
     }
 }

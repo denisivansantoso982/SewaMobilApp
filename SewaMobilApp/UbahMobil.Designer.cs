@@ -45,6 +45,7 @@ namespace SewaMobilApp
             this.label2 = new System.Windows.Forms.Label();
             this.TxtNoPol = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.labelTitle = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericHarga)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericTahun)).BeginInit();
@@ -63,8 +64,8 @@ namespace SewaMobilApp
             this.btnBatal.Font = new System.Drawing.Font("Nirmala UI", 11F);
             this.btnBatal.ForeColor = System.Drawing.Color.Snow;
             this.btnBatal.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btnBatal.Location = new System.Drawing.Point(837, 480);
-            this.btnBatal.Margin = new System.Windows.Forms.Padding(9, 9, 9, 9);
+            this.btnBatal.Location = new System.Drawing.Point(837, 565);
+            this.btnBatal.Margin = new System.Windows.Forms.Padding(9);
             this.btnBatal.Name = "btnBatal";
             this.btnBatal.Size = new System.Drawing.Size(279, 33);
             this.btnBatal.TabIndex = 17;
@@ -84,8 +85,8 @@ namespace SewaMobilApp
             this.btnUbah.Font = new System.Drawing.Font("Nirmala UI", 11F);
             this.btnUbah.ForeColor = System.Drawing.Color.Snow;
             this.btnUbah.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btnUbah.Location = new System.Drawing.Point(837, 430);
-            this.btnUbah.Margin = new System.Windows.Forms.Padding(9, 9, 9, 9);
+            this.btnUbah.Location = new System.Drawing.Point(837, 512);
+            this.btnUbah.Margin = new System.Windows.Forms.Padding(9);
             this.btnUbah.Name = "btnUbah";
             this.btnUbah.Size = new System.Drawing.Size(279, 33);
             this.btnUbah.TabIndex = 32;
@@ -105,8 +106,8 @@ namespace SewaMobilApp
             this.btnCari.Font = new System.Drawing.Font("Nirmala UI", 11F);
             this.btnCari.ForeColor = System.Drawing.Color.Snow;
             this.btnCari.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btnCari.Location = new System.Drawing.Point(837, 379);
-            this.btnCari.Margin = new System.Windows.Forms.Padding(9, 9, 9, 9);
+            this.btnCari.Location = new System.Drawing.Point(837, 461);
+            this.btnCari.Margin = new System.Windows.Forms.Padding(9);
             this.btnCari.Name = "btnCari";
             this.btnCari.Size = new System.Drawing.Size(279, 33);
             this.btnCari.TabIndex = 31;
@@ -119,8 +120,8 @@ namespace SewaMobilApp
             this.pictureBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox.BackColor = System.Drawing.Color.White;
             this.pictureBox.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox.Location = new System.Drawing.Point(837, 55);
-            this.pictureBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox.Location = new System.Drawing.Point(837, 137);
+            this.pictureBox.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox.Name = "pictureBox";
             this.pictureBox.Size = new System.Drawing.Size(278, 288);
             this.pictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -131,8 +132,8 @@ namespace SewaMobilApp
             // 
             this.CBKelas.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CBKelas.FormattingEnabled = true;
-            this.CBKelas.Location = new System.Drawing.Point(264, 395);
-            this.CBKelas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CBKelas.Location = new System.Drawing.Point(264, 477);
+            this.CBKelas.Margin = new System.Windows.Forms.Padding(4);
             this.CBKelas.Name = "CBKelas";
             this.CBKelas.Size = new System.Drawing.Size(468, 33);
             this.CBKelas.TabIndex = 27;
@@ -141,7 +142,7 @@ namespace SewaMobilApp
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(77, 399);
+            this.label6.Location = new System.Drawing.Point(77, 481);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(56, 25);
@@ -152,8 +153,8 @@ namespace SewaMobilApp
             // 
             this.numericHarga.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.numericHarga.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericHarga.Location = new System.Drawing.Point(264, 481);
-            this.numericHarga.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.numericHarga.Location = new System.Drawing.Point(264, 563);
+            this.numericHarga.Margin = new System.Windows.Forms.Padding(4);
             this.numericHarga.Name = "numericHarga";
             this.numericHarga.Size = new System.Drawing.Size(469, 32);
             this.numericHarga.TabIndex = 29;
@@ -163,7 +164,7 @@ namespace SewaMobilApp
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(77, 484);
+            this.label5.Location = new System.Drawing.Point(77, 566);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(63, 25);
@@ -175,8 +176,8 @@ namespace SewaMobilApp
             this.numericTahun.AllowDrop = true;
             this.numericTahun.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.numericTahun.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericTahun.Location = new System.Drawing.Point(264, 310);
-            this.numericTahun.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.numericTahun.Location = new System.Drawing.Point(264, 392);
+            this.numericTahun.Margin = new System.Windows.Forms.Padding(4);
             this.numericTahun.Name = "numericTahun";
             this.numericTahun.Size = new System.Drawing.Size(469, 32);
             this.numericTahun.TabIndex = 25;
@@ -185,7 +186,7 @@ namespace SewaMobilApp
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(77, 313);
+            this.label4.Location = new System.Drawing.Point(77, 395);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(106, 25);
@@ -195,8 +196,8 @@ namespace SewaMobilApp
             // TxtModel
             // 
             this.TxtModel.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtModel.Location = new System.Drawing.Point(264, 225);
-            this.TxtModel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtModel.Location = new System.Drawing.Point(264, 307);
+            this.TxtModel.Margin = new System.Windows.Forms.Padding(4);
             this.TxtModel.Name = "TxtModel";
             this.TxtModel.Size = new System.Drawing.Size(468, 32);
             this.TxtModel.TabIndex = 23;
@@ -205,7 +206,7 @@ namespace SewaMobilApp
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(77, 229);
+            this.label3.Location = new System.Drawing.Point(77, 311);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(66, 25);
@@ -215,8 +216,8 @@ namespace SewaMobilApp
             // TxtMerk
             // 
             this.TxtMerk.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtMerk.Location = new System.Drawing.Point(264, 140);
-            this.TxtMerk.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtMerk.Location = new System.Drawing.Point(264, 222);
+            this.TxtMerk.Margin = new System.Windows.Forms.Padding(4);
             this.TxtMerk.Name = "TxtMerk";
             this.TxtMerk.Size = new System.Drawing.Size(468, 32);
             this.TxtMerk.TabIndex = 21;
@@ -225,7 +226,7 @@ namespace SewaMobilApp
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(77, 144);
+            this.label2.Location = new System.Drawing.Point(77, 226);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(55, 25);
@@ -235,8 +236,8 @@ namespace SewaMobilApp
             // TxtNoPol
             // 
             this.TxtNoPol.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtNoPol.Location = new System.Drawing.Point(264, 55);
-            this.TxtNoPol.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtNoPol.Location = new System.Drawing.Point(264, 137);
+            this.TxtNoPol.Margin = new System.Windows.Forms.Padding(4);
             this.TxtNoPol.Name = "TxtNoPol";
             this.TxtNoPol.ReadOnly = true;
             this.TxtNoPol.Size = new System.Drawing.Size(468, 32);
@@ -246,18 +247,32 @@ namespace SewaMobilApp
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(77, 59);
+            this.label1.Location = new System.Drawing.Point(77, 141);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(90, 25);
             this.label1.TabIndex = 18;
             this.label1.Text = "No. Polisi";
             // 
+            // labelTitle
+            // 
+            this.labelTitle.AutoSize = true;
+            this.labelTitle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.labelTitle.Font = new System.Drawing.Font("Trebuchet MS", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelTitle.ForeColor = System.Drawing.SystemColors.WindowFrame;
+            this.labelTitle.Location = new System.Drawing.Point(74, 49);
+            this.labelTitle.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelTitle.Name = "labelTitle";
+            this.labelTitle.Size = new System.Drawing.Size(275, 43);
+            this.labelTitle.TabIndex = 33;
+            this.labelTitle.Text = "Ubah Data Mobil";
+            // 
             // UbahMobil
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1200, 615);
+            this.ClientSize = new System.Drawing.Size(1200, 700);
+            this.Controls.Add(this.labelTitle);
             this.Controls.Add(this.btnUbah);
             this.Controls.Add(this.btnCari);
             this.Controls.Add(this.pictureBox);
@@ -275,7 +290,7 @@ namespace SewaMobilApp
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnBatal);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "UbahMobil";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "UbahMobil";
@@ -306,5 +321,6 @@ namespace SewaMobilApp
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox TxtNoPol;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label labelTitle;
     }
 }
