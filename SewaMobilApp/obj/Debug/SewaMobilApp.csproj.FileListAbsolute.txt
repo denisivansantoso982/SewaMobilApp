@@ -38,3 +38,5 @@ D:\DENIS IVAN SANTOSO\Project Example\Desktop_Tutorial\LKS\SewaMobilApp\SewaMobi
 D:\DENIS IVAN SANTOSO\Project Example\Desktop_Tutorial\LKS\SewaMobilApp\SewaMobilApp\obj\Debug\aa\SewaMobilApp.resources.dll
 D:\DENIS IVAN SANTOSO\Project Example\Desktop_Tutorial\LKS\SewaMobilApp\SewaMobilApp\obj\Debug\SewaMobilApp.exe
 D:\DENIS IVAN SANTOSO\Project Example\Desktop_Tutorial\LKS\SewaMobilApp\SewaMobilApp\obj\Debug\SewaMobilApp.pdb
+D:\DENIS IVAN SANTOSO\Project Example\Desktop_Tutorial\LKS\SewaMobilApp\SewaMobilApp\obj\Debug\SewaMobilApp.TambahKaryawan.resources
+D:\DENIS IVAN SANTOSO\Project Example\Desktop_Tutorial\LKS\SewaMobilApp\SewaMobilApp\obj\Debug\SewaMobilApp.UbahKaryawan.resources

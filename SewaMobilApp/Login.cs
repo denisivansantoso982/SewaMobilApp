@@ -85,10 +85,12 @@ namespace SewaMobilApp
 
         private void textBoxUsername_KeyPress(object sender, KeyPressEventArgs e)
         {
+            e.Handled = (e.KeyChar == (char) Keys.Space);
+
             if ( e.KeyChar == (char)Keys.Enter )
             {
                 textBoxPassword.Focus();
-            }
+            } 
         }
 
         private void textBoxPassword_KeyPress(object sender, KeyPressEventArgs e)

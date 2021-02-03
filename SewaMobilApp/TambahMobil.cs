@@ -7,6 +7,8 @@ namespace SewaMobilApp
 {
     public partial class TambahMobil : Form
     {
+        SqlConnection connection;
+        SqlCommand cmd;
         string imageUrl;
 
         public TambahMobil()
@@ -40,14 +42,14 @@ namespace SewaMobilApp
                 if ( ValidationForm() )
                 {
                     Koneksi kon = new Koneksi();
-                    SqlConnection connection = new SqlConnection(kon.koneksi);
+                    connection = new SqlConnection(kon.koneksi);
                     connection.Open();
                     Image image = pictureBox.Image;
                     byte[] arr;
                     ImageConverter convert = new ImageConverter();
                     arr = (byte[]) convert.ConvertTo(image, typeof(byte[]));
 
-                    SqlCommand cmd = new SqlCommand("INSERT INTO Mobil VALUES (@No_Pol, @Merk, @Model, @Thn_Buat, @Status_Mobil, @Kelas, @Harga, @Gambar)", connection);
+                    cmd = new SqlCommand("INSERT INTO Mobil VALUES (@No_Pol, @Merk, @Model, @Thn_Buat, @Status_Mobil, @Kelas, @Harga, @Gambar)", connection);
                     cmd.Parameters.AddWithValue("@No_Pol", TxtNoPol.Text);
                     cmd.Parameters.AddWithValue("@Merk", TxtMerk.Text);
                     cmd.Parameters.AddWithValue("@Model", TxtModel.Text);

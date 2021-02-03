@@ -88,12 +88,29 @@ namespace SewaMobilApp
 
         private void btnTambahKaryawan_Click(object sender, EventArgs e)
         {
-
+            TambahKaryawan tambahKaryawan = new TambahKaryawan();
+            tambahKaryawan.ShowDialog();
         }
 
         private void btnUbah_Click(object sender, EventArgs e)
         {
+            try
+            {
+                DataKaryawan.Id = Convert.ToInt32(dataGridKaryawan.SelectedRows[0].Cells[0].Value);
+                DataKaryawan.Nama = Convert.ToString(dataGridKaryawan.SelectedRows[0].Cells[1].Value);
+                DataKaryawan.No_telp = Convert.ToString(dataGridKaryawan.SelectedRows[0].Cells[2].Value);
+                DataKaryawan.Tgl_lahir = Convert.ToDateTime(dataGridKaryawan.SelectedRows[0].Cells[3].Value);
+                DataKaryawan.Jk = Convert.ToString(dataGridKaryawan.SelectedRows[0].Cells[4].Value);
+                DataKaryawan.Username = Convert.ToString(dataGridKaryawan.SelectedRows[0].Cells[5].Value);
+                DataKaryawan.Password = Convert.ToString(dataGridKaryawan.SelectedRows[0].Cells[6].Value);
+                DataKaryawan.Posisi = Convert.ToString(dataGridKaryawan.SelectedRows[0].Cells[7].Value);
 
+                UbahKaryawan ubahKaryawan = new UbahKaryawan();
+                ubahKaryawan.Show();
+            } catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void btnHapus_Click(object sender, EventArgs e)

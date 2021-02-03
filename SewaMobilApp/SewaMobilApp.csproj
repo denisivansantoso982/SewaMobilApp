@@ -92,11 +92,23 @@
     <Compile Include="Riwayat.Designer.cs">
       <DependentUpon>Riwayat.cs</DependentUpon>
     </Compile>
+    <Compile Include="TambahKaryawan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TambahKaryawan.Designer.cs">
+      <DependentUpon>TambahKaryawan.cs</DependentUpon>
+    </Compile>
     <Compile Include="TambahMobil.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="TambahMobil.Designer.cs">
       <DependentUpon>TambahMobil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UbahKaryawan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UbahKaryawan.Designer.cs">
+      <DependentUpon>UbahKaryawan.cs</DependentUpon>
     </Compile>
     <Compile Include="UbahMobil.cs">
       <SubType>Form</SubType>
@@ -134,8 +146,14 @@
     <EmbeddedResource Include="Splash.resx">
       <DependentUpon>Splash.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="TambahKaryawan.resx">
+      <DependentUpon>TambahKaryawan.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="TambahMobil.resx">
       <DependentUpon>TambahMobil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UbahKaryawan.resx">
+      <DependentUpon>UbahKaryawan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UbahMobil.resx">
       <DependentUpon>UbahMobil.cs</DependentUpon>
